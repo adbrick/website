@@ -1,0 +1,8 @@
+# System
+.DS_Store
+
+# Temp
+/var/
+
+# Secrets
+/.env*local
