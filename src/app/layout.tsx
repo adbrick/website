@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Footer, Header, LayoutCarbon, Menu } from '@aaronellington/standard-ui'
 import styles from './layout.module.scss'
-import './global.scss'
+import './global.css'
 import { Logo } from '@/Logo'
 
 export const metadata: Metadata = {

@@ -13,7 +13,7 @@ export default function PageComponent() {
 					>
 						<Image
 							src="/images/browser-icons/chrome.webp"
-							alt=""
+							alt="Chrome Download"
 							width={334}
 							height={128}
 						/>
@@ -24,7 +24,7 @@ export default function PageComponent() {
 					>
 						<Image
 							src="/images/browser-icons/firefox.webp"
-							alt=""
+							alt="Firefox Download"
 							width={334}
 							height={128}
 						/>
@@ -35,7 +35,7 @@ export default function PageComponent() {
 					>
 						<Image
 							src="/images/browser-icons/safari-macos.webp"
-							alt=""
+							alt="Safari macOS Download"
 							width={334}
 							height={128}
 						/>
@@ -51,7 +51,7 @@ export default function PageComponent() {
 					<a target="_blank" href="#" className={styles.disabled}>
 						<Image
 							src="/images/browser-icons/microsoft.webp"
-							alt=""
+							alt="Edge Download"
 							width={334}
 							height={128}
 						/>
@@ -59,7 +59,7 @@ export default function PageComponent() {
 					<a target="_blank" href="#" className={styles.disabled}>
 						<Image
 							src="/images/browser-icons/opera.webp"
-							alt=""
+							alt="Opera Download"
 							width={334}
 							height={128}
 						/>
