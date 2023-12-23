@@ -1,0 +1,19 @@
+.main {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	gap: 1.5rem;
+	justify-content: center;
+}
+
+.browserIcons {
+	display: flex;
+	gap: 3rem;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	.disabled {
+		cursor: not-allowed;
+		opacity: 0.25;
+	}
+}

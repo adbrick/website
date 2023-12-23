@@ -1,0 +1,15 @@
+:root {
+	--reset-css-accent-background: #ae0000;
+	--reset-css-accent-background-hover: #ae0000;
+	--reset-css-accent-text: white;
+	--reset-css-accent-text-hover: white;
+}
+
+@media (prefers-color-scheme: dark) {
+	html:not(.disable-dark-mode) {
+		--reset-css-accent-background: #ff6767;
+		--reset-css-accent-background-hover: #ff6767;
+		--reset-css-accent-text: white;
+		--reset-css-accent-text-hover: white;
+	}
+}
