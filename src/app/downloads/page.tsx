@@ -34,16 +34,8 @@ export default function PageComponent() {
 						href="https://apps.apple.com/us/app/adbrick/id6474696501"
 					>
 						<Image
-							src="/images/browser-icons/safari-macos.webp"
-							alt="Safari macOS Download"
-							width={334}
-							height={128}
-						/>
-					</a>
-					<a target="_blank" href="" className={styles.disabled}>
-						<Image
-							src="/images/browser-icons/safari-ios.webp"
-							alt=""
+							src="/images/browser-icons/safari.webp"
+							alt="Safari Download"
 							width={334}
 							height={128}
 						/>
