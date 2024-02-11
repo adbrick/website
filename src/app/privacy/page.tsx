@@ -1,5 +1,5 @@
-import { Page } from '@aaronellington/standard-ui'
-import styles from './page.module.scss'
+import { Page } from "@aaronellington/standard-ui";
+import styles from "./page.module.scss";
 
 export default function PageComponent() {
 	return (
@@ -9,5 +9,5 @@ export default function PageComponent() {
 				<p>AdBrick does not collect any data of any kind.</p>
 			</article>
 		</Page>
-	)
+	);
 }

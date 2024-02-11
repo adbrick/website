@@ -1,5 +1,5 @@
-import { Page } from '@aaronellington/standard-ui'
-import styles from './page.module.scss'
+import { Page } from "@aaronellington/standard-ui";
+import styles from "./page.module.scss";
 
 export default function PageComponent() {
 	return (
@@ -9,13 +9,13 @@ export default function PageComponent() {
 				<p>There are 2 main ways to get support:</p>
 				<ol>
 					<li>
-						Submit a{' '}
+						Submit a{" "}
 						<a href="https://github.com/adbrick/extension/issues/new">
 							GitHub Issue
 						</a>
 					</li>
 					<li>
-						Email Us here:{' '}
+						Email Us here:{" "}
 						<a href="mailto:contact@adbrick.org?subject=Product Support Request">
 							contact@adbrick.org
 						</a>
@@ -23,5 +23,5 @@ export default function PageComponent() {
 				</ol>
 			</article>
 		</Page>
-	)
+	);
 }

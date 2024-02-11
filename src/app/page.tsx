@@ -1,3 +1,3 @@
-import PageComponent from './downloads/page'
+import PageComponent from "./downloads/page";
 
-export default PageComponent
+export default PageComponent;

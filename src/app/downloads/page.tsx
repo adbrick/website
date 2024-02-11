@@ -1,6 +1,6 @@
-import { Page } from '@aaronellington/standard-ui'
-import styles from './page.module.scss'
-import Image from 'next/image'
+import { Page } from "@aaronellington/standard-ui";
+import Image from "next/image";
+import styles from "./page.module.scss";
 
 export default function PageComponent() {
 	return (
@@ -10,6 +10,7 @@ export default function PageComponent() {
 					<a
 						target="_blank"
 						href="https://chromewebstore.google.com/detail/adbrick/lceleahfonekbbkkmfoefkldfedghjgl"
+						rel="noreferrer"
 					>
 						<Image
 							src="/images/browser-icons/chrome.webp"
@@ -21,6 +22,7 @@ export default function PageComponent() {
 					<a
 						target="_blank"
 						href="https://addons.mozilla.org/en-US/firefox/addon/adbrick"
+						rel="noreferrer"
 					>
 						<Image
 							src="/images/browser-icons/firefox.webp"
@@ -32,6 +34,7 @@ export default function PageComponent() {
 					<a
 						target="_blank"
 						href="https://apps.apple.com/us/app/adbrick/id6474696501"
+						rel="noreferrer"
 					>
 						<Image
 							src="/images/browser-icons/safari.webp"
@@ -40,7 +43,7 @@ export default function PageComponent() {
 							height={128}
 						/>
 					</a>
-					<a target="_blank" href="#" className={styles.disabled}>
+					<a href="/" className={styles.disabled} rel="noreferrer">
 						<Image
 							src="/images/browser-icons/microsoft.webp"
 							alt="Edge Download"
@@ -48,7 +51,7 @@ export default function PageComponent() {
 							height={128}
 						/>
 					</a>
-					<a target="_blank" href="#" className={styles.disabled}>
+					<a href="/" className={styles.disabled} rel="noreferrer">
 						<Image
 							src="/images/browser-icons/opera.webp"
 							alt="Opera Download"
@@ -59,5 +62,5 @@ export default function PageComponent() {
 				</p>
 			</article>
 		</Page>
-	)
+	);
 }
